@@ -1,0 +1,21 @@
+{
+    "name": "user0dev/mega-blog",
+    "authors": [
+        {
+            "name": "user0dev",
+            "email": "user0dev@yandex.com"
+        }
+    ],
+    "require": {"kyzima-spb/tik-engine": "dev-master"},
+    "autoload": {
+        "psr-4": {
+            "user0dev\\MegaBlog\\": "./src"
+        }
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../tik-engine-2016-2017"
+        }
+    ]
+}
